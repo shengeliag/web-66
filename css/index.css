@@ -1,0 +1,174 @@
+body{margin: 0;}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right{
+    display: flex;
+    font-family: worksans;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 28.15px;
+    gap: 60px;
+}
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+.home{
+    font-family: worksans;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 28.15px;
+    color: #DCB47A;
+}
+.headicones{
+    width: 39px;
+    height: 39px;
+}
+.bod{
+    width: 100%;
+    height: 784px;
+    display: flex;
+    
+}
+.foto{
+    width: 100%;
+    height: 784px;
+}
+.bodcont{
+    display: flex;
+    width: 70%;
+    height: 273px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    border: 1px;
+    position: absolute;
+    left: 230px;
+    top: 400px;
+    font-family: worksans;
+    font-weight: 700px;
+    font-size: 70px;
+    line-height: 96.19px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 30px 20px 5px black;
+    align-items: center;
+}
+.bod1{
+    width: 100%;
+    height: 784px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bod2{
+    width: 80%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.bod2txt{
+    font-family: worksans;
+    font-weight: 600px;
+    font-size: 65px;
+    line-height: 87.98px;
+    color: #E08C11;
+}
+.box{
+    width: 390px;
+    height: 361px;
+    border-radius: 40px;
+    border: 3px;
+    border-color: #DCB47A;
+    border-style:solid ;
+    display: flex;
+    flex-direction: column;
+}
+.boxcont{
+    display: flex;
+    gap: 40px;
+}
+.fotos{
+    width: 308px;
+    height: 225px;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.boxtxt{
+    margin-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -5%;
+}
+.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -5%;
+    color: #E08C11;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 308px;
+    margin-left: 30px;
+}
+.last{
+    width: 100%;
+    height: 377px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+.lasttxt{
+    font-family: worksans;
+    font-weight: 600px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+    width: 661px;
+    height: 70px;
+}
+.spn2{
+    color: #DCB47A;
+}
+.lasttxt2{
+    font-family: worksans;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFFCC;
+    width: 402px;
+    height: 26px;
+}   
+.lastdv{
+    width: 200px;
+    height: 64px;
+    border-radius: 60px;
+    background-color: #DCB47A;
+    display: flex;
+    font-family: worksans;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
